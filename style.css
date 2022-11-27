@@ -1,0 +1,238 @@
+@charset "UTF-8"; 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    width: 100%;
+    height: 96vh;
+    color: black;
+}
+.cabecalho{
+display: flex;
+justify-content: space-around;
+background-color: #151515 ; 
+height: 12vh;
+color: #5FD4B7;
+
+}
+
+.cabecalho img {
+   margin-top: 15px;
+    width: 150px;
+    height: 60px;
+}
+
+.cabecalho ul{
+    list-style: none;
+    margin-top: 5px;
+}
+
+.cabecalho li {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cabecalho  a {
+    text-decoration: none;
+    color: #5FD4B7;
+}
+
+#menu-picture{
+    display: none;
+}
+
+.saibamais {
+    margin-top: 10vh;
+    width: 45%;
+}
+ .saibamais h1, h2, p{
+    padding-bottom: 20px;
+ }
+
+ .saibamais h1 {
+    font-size: 60px;
+ }
+
+ .saibamais h2 {
+    font-size: 30px;
+ }
+
+ .saibamais p {
+    width: 80%;
+    margin-bottom: 20px;
+ }
+
+ .saibamais a {
+    color: #1D3A35;
+    background-color: #5FD4B7;
+    font-weight: bolder;
+    border-radius: 40px;
+    padding:10px;
+    text-decoration: none;
+    transition: 0.5s;
+ }
+
+ .saibamais a:hover {
+    color: #5FD4B7;
+    background-color: #1D3A35;
+    font-weight: bolder; 
+    
+}
+.cabecalho2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 50px;
+}
+
+
+.projetos {
+  margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+}
+
+.projetos img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.imagem1 {
+  height: 420px;
+   width: 30%;
+   margin: 0 auto;
+}
+
+.imagem1 img {
+    margin-left: 50px;
+    width: 80%;
+   
+}
+.imagem1 h1 {
+    margin: 0 10%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imagem1 p {
+    margin: 0 10%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imagem1 a {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #5FD4B7;
+    color: #1D3A35;
+    font-weight: bolder;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.imagem1 a:hover {
+    border-radius: 10px;
+    text-align: center;
+    background-color: #1D3A35;
+    color: #5FD4B7;
+ }
+
+ .footerzinho{
+    padding-top: 30px;
+    background-color: #151515 ;
+    height: 10vh;
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+ }
+ .footerzinho h2 {
+    font-size: 16px;
+ }
+
+ .footerzinho img {
+    width: 50px;
+ }
+
+#logoa {
+    width: 100px;
+    height: 50px;
+}
+
+main > h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+@media screen and (max-width: 964px) {
+  
+    .cabecalho ul{
+        display: none;
+    }
+    #menu-picture{
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-top: 22px;
+    }
+
+    .saibamais {
+      
+        width: 100%;
+        margin-bottom: 10vh;
+    }
+
+    .saibamais p {
+       margin: 0 auto;
+    }
+    .cabecalho2 {
+        text-align: center;
+        display: block;
+        height: auto;
+        
+    }
+    .cabecalho2 img {
+        width: 90%;
+    }
+  main {
+    margin-top:  50vh;
+  }
+
+  main > h1 {
+    margin-top: -120px;
+    font-size: 30px;
+  }
+    .imagem1 {
+        width: 80%;
+        height: auto;
+        margin-bottom: 60px;
+    }
+
+    .imagem1 a {
+        
+            border-radius: 10px;
+            
+    }
+
+   
+
+    .projetos img {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    video {
+        margin-top: -90px;
+        width: 100%;
+    }
+}
+
